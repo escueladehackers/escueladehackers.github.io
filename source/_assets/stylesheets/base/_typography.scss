@@ -1,3 +1,4 @@
+
 body {
   @include font-feature-settings("kern", "liga", "pnum");
   -webkit-font-smoothing: antialiased;
@@ -14,7 +15,7 @@ h4,
 h5,
 h6 {
   font-family: $heading-font-family;
-  font-size: $base-font-size;
+  font-size: $heading-base-font-size;
   line-height: $heading-line-height;
   margin: 0 0 $small-spacing;
 }

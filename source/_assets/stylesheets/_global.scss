@@ -1,9 +1,13 @@
 body {
-  background-color: $light-gray;
-  color: $medium-gray;
+  background-color: $white;
+  color: $dark-gray;
 }
 
-.delete-me {
+.strong, strong{
+  color: $black;
+}
+
+.landing{
   align-items: center;
   display: flex;
   justify-content: center;
@@ -11,9 +15,15 @@ body {
 
   .container {
     text-align: center;
-
+    max-width: 60vh;
+    img{
+      max-width: 300px;
+    }
     h1 {
       font-weight: 200;
     }
+  }
+  .informes{
+    font-size: 0.8em;
   }
 }

@@ -1,5 +1,7 @@
 source "https://rubygems.org"
 
+gem 'thin'
+
 gem "bourbon"
 gem "coffee-script"
 gem "jekyll"
@@ -10,3 +12,6 @@ gem "octopress-autoprefixer"
 gem "sass"
 gem "uglifier"
 gem "mini_magick"
+gem 'guard'
+gem 'guard-jekyll-plus'
+gem 'guard-livereload'
