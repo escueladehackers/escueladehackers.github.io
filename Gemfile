@@ -2,9 +2,9 @@ source "https://rubygems.org"
 
 gem 'thin'
 
-gem "bourbon"
+gem "jekyll", "3.1.6"
+gem "bourbon", "4.2.7"
 gem "coffee-script"
-gem "jekyll"
 gem "jekyll-assets"
 gem "jekyll-haml"
 gem "neat"
